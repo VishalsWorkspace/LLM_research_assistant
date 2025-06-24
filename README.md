@@ -57,9 +57,6 @@ We’ve included the official LLM Technical Report (GPT-4) as a sample PDF:
 
 🖥️ Run Locally (Offline, No API Keys)
 1. Clone the repository
-bash
-Copy
-Edit
 git clone https://github.com/YOUR_USERNAME/llm_research_assistant.git
 cd llm_research_assistant
 
@@ -84,10 +81,7 @@ Visit your assistant at: http://localhost:xxxx
 
 📁 Folder Structure
 
-pgsql
-
 llm_research_assistant/
-
 ├── app.py                ← Streamlit UI with real-time LLM metrics
 ├── ingest.py             ← PDF processing & vectorstore creation
 ├── requirements.txt
